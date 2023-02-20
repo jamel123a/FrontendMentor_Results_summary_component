@@ -13,7 +13,9 @@ a{
 }
 :root{
     --Lightred: hsl(0, 100%, 67%);
+    --Lightred1: hsl(0, 0%, 71%);
     --Orangeyyellow: hsl(39, 100%, 56%);
+    --Orangeyyellow1: hsl(39, 17%, 52%);
     --Greenteal: hsl(166, 100%, 37%);
     --Cobaltblue: hsl(234, 85%, 45%);
     --LightslateblueBackground: hsl(252, 100%, 67%);
@@ -47,6 +49,7 @@ main{
 @media (max-width:767px){
     main{
         flex-direction: column;
+        box-shadow: none;
         
     }
     body{
@@ -117,13 +120,15 @@ main .summary{
     justify-content: space-between;
     border-radius: 1rem;
     padding: 1rem;
+    background-color: var(--Pale);
+
+}
+.summary .note1,.summary .note2{
+    background-color: var(--Lightred1);
 }
 .summary .note .name{
     display: flex;
     gap: 0.5rem;
-}
-.summary .note{
-    background-color: var(--Pale);
 }
 .summary .note .number{
     color: var(--Lightlavender);
