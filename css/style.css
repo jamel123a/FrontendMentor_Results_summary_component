@@ -82,7 +82,7 @@ main .result{
     max-width: 170px;
     max-height: 170px;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2.5rem;
     background: linear-gradient(to bottom,var(--VioletblueCircle),var(--PersianblueCircle));
     border-radius: 50%;
 }
@@ -93,6 +93,7 @@ main .result{
 }
 .result .rating em{
     color: var(--Lightlavender);
+    text-align: center;
 }
 .result .gread{
     color: var(--white);
