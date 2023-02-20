@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repositories](https://github.com/jamel123a/FrontendMentor_Results_summary_component/)
-- Live Site URL: [](https://frontendmentor-results-sammury.netlify.app/)
+- Live Site URL: [Netlify](https://frontendmentor-results-sammury.netlify.app/)
 
 ## My process
 
